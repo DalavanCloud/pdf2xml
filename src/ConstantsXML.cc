@@ -52,7 +52,7 @@ namespace ConstantsXML
 	const char *XI_PREFIX = "xi";
 	const char *XI_INCLUDE = "include";
 	
-	const char *VERSION = "1.0";
+	const char *XML_VERSION = "1.0";
 	const char *ENCODING_UTF8 = "UTF-8";
 	
 	// Metadata attributes

@@ -83,7 +83,7 @@ void Parameters::saveToXML(const char *fileName,int firstPage,int lastPage){
   	xmlDocPtr confDoc =NULL;
   	
   	
-	confDoc = xmlNewDoc((const xmlChar*)VERSION);
+	confDoc = xmlNewDoc((const xmlChar*)XML_VERSION);
 	confNode = xmlNewNode(NULL,(const xmlChar*)TAG_PAR_CONF);
 	tool = xmlNewNode(NULL,(const xmlChar*)TAG_PAR_TOOL);
 	name = xmlNewNode(NULL,(const xmlChar*)TAG_PAR_NAME);

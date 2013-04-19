@@ -60,7 +60,7 @@ namespace ConstantsXML
 	extern const char *XI_PREFIX;
 	extern const char *XI_INCLUDE;
 	
-	extern const char *VERSION;
+	extern const char *XML_VERSION;
 	extern const char *ENCODING_UTF8;
 	
 	// Metadata attributes
