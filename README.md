@@ -39,5 +39,5 @@ The Open Access PDF (2354-G-3-layout.pdf) for the article [doi:10.3897/zookeys.1
 
 ./pdftoxml 2354-G-3-layout.pdf you will get an XML file containing the text of the PDF, and the images extracted from the PDF are in the folder 2354-G-3-layout.xml_data. 
 
-<img src="https://raw.github.com/rdmpage/pdf2xml/master/example/2354-G-3-layout.xml_data/image-1.png" alt="image-1.png" style="width: 100px;"/>
+<img src="https://raw.github.com/rdmpage/pdf2xml/master/example/2354-G-3-layout.xml_data/image-1.png" alt="image-1.png" width="100"/>
 
