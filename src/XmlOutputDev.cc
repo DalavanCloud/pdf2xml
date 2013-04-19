@@ -731,8 +731,8 @@ void TextPage::startPage(int pageNum, GfxState *state, GBool cut) {
 //  	printf("start annotations\n");
 	currentPage = myCat->getPage(num);
 	currentPage->getAnnots(&objAnnot);
-	//pageLinks = currentPage->getLinks(myCat);
-	pageLinks = currentPage->getLinks();
+	pageLinks = currentPage->getLinks(myCat);
+	//pageLinks = currentPage->getLinks();
 
 	// Annotation's objects list
 	if (objAnnot.isArray()){
