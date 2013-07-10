@@ -690,7 +690,7 @@ void TextPage::startPage(int pageNum, GfxState *state, GBool cut) {
 
 	// Cut all pages OK
 	if (cutter) {
-		docPage = xmlNewDoc((const xmlChar*)VERSION);
+		docPage = xmlNewDoc((const xmlChar*)XML_VERSION);
 		globalParams->setTextEncoding((char*)ENCODING_UTF8);
 		docPage->encoding = xmlStrdup((const xmlChar*)ENCODING_UTF8);
 		xmlDocSetRootElement(docPage, page);
@@ -702,7 +702,7 @@ void TextPage::startPage(int pageNum, GfxState *state, GBool cut) {
 	//  	fflush(stderr);
 
 	// New file for vectorials instructions 
-	vecdoc = xmlNewDoc((const xmlChar*)VERSION);
+	vecdoc = xmlNewDoc((const xmlChar*)XML_VERSION);
 	globalParams->setTextEncoding((char*)ENCODING_UTF8);
 	vecdoc->encoding = xmlStrdup((const xmlChar*)ENCODING_UTF8);
 	vecroot = xmlNewNode(NULL, (const xmlChar*)TAG_VECTORIALIMAGES);
@@ -3596,7 +3596,7 @@ XmlOutputDev::XmlOutputDev(GString *fileName, GString *fileNamePdf,
 
 	lPictureReferences = new GList();
 
-	doc = xmlNewDoc((const xmlChar*)VERSION);
+	doc = xmlNewDoc((const xmlChar*)XML_VERSION);
 
 	globalParams->setTextEncoding((char*)ENCODING_UTF8);
 	doc->encoding = xmlStrdup((const xmlChar*)ENCODING_UTF8);
@@ -4199,7 +4199,7 @@ void XmlOutputDev::drawImageMask(GfxState *state, Object *ref, Stream *str,
 
 void XmlOutputDev::initOutline(int nbPage) {
 	char* tmp = (char*)malloc(10*sizeof(char));
-	docOutline = xmlNewDoc((const xmlChar*)VERSION);
+	docOutline = xmlNewDoc((const xmlChar*)XML_VERSION);
 	globalParams->setTextEncoding((char*)ENCODING_UTF8);
 	docOutlineRoot = xmlNewNode(NULL, (const xmlChar*)TAG_TOCITEMS);
 	sprintf(tmp, "%d", nbPage);
