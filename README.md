@@ -43,3 +43,9 @@ you will get an XML file containing the text of the PDF, and the images extracte
 
 <img src="https://raw.github.com/rdmpage/pdf2xml/master/example/2354-G-3-layout.xml_data/image-1.png" alt="image-1.png" width="400"/>
 
+You can extract the PDF into individual XML pages using the -cutPages option, i.e.
+
+* ./pdftoxml -cutPages 2354-G-3-layout.pdf 
+
+
+
