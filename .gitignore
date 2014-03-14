@@ -17,6 +17,7 @@
 
 config.status
 config.log
+libtool
 
 
 # http://www.gnu.org/software/automake
@@ -36,4 +37,25 @@ Makefile.in
 
 pdftoxml
 
+xpdf-3.02/xpdf/pdfimages
+xpdf-3.02/xpdf/pdffonts
+xpdf-3.02/xpdf/pdfinfo
+xpdf-3.02/xpdf/pdftops
+xpdf-3.02/xpdf/pdftotext
+
+
 example/junk
+
+xpdf-3.02/xpdf/pdfimages
+
+xpdf-3.02/xpdf/pdfinfo
+
+xpdf-3.02/xpdf/pdftops
+
+xpdf-3.02/xpdf/pdftops
+
+xpdf-3.02/xpdf/pdftotext
+
+xpdf-3.02/xpdf/pdffonts
+
+xpdf-3.02/xpdf/pdffonts
