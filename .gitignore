@@ -3,6 +3,8 @@
 *.lo
 *.o
 *.plo
+*.po
+*.Po
 
 # Compiled Dynamic libraries
 *.so
@@ -12,6 +14,10 @@
 *.lai
 *.la
 *.a
+
+config.status
+config.log
+
 
 # http://www.gnu.org/software/automake
 
