@@ -2,6 +2,7 @@
 *.slo
 *.lo
 *.o
+*.plo
 
 # Compiled Dynamic libraries
 *.so
@@ -15,7 +16,7 @@
 # http://www.gnu.org/software/automake
 
 Makefile
-# Makefile.in
+Makefile.in
 
 # http://www.gnu.org/software/autoconf
 
