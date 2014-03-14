@@ -15,7 +15,7 @@
 # http://www.gnu.org/software/automake
 
 Makefile
-Makefile.in
+# Makefile.in
 
 # http://www.gnu.org/software/autoconf
 
