@@ -37,7 +37,8 @@ Then build pdftoxml itself
 
 The Open Access PDF (2354-G-3-layout.pdf) for the article [doi:10.3897/zookeys.160.2354](http://dx.doi.org/10.3897/zookeys.160.2354) is included in the folder "examples". If you run
 
-* ./pdftoxml 2354-G-3-layout.pdf 
+* cd example
+* ../pdftoxml 2354-G-3-layout.pdf 
 
 you will get an XML file containing the text of the PDF, and the images extracted from the PDF are in the folder 2354-G-3-layout.xml_data. 
 
@@ -45,7 +46,8 @@ you will get an XML file containing the text of the PDF, and the images extracte
 
 You can extract the PDF into individual XML pages using the -cutPages option, i.e.
 
-* ./pdftoxml -cutPages 2354-G-3-layout.pdf 
+* cd example
+* ../pdftoxml -cutPages 2354-G-3-layout.pdf 
 
 
 
