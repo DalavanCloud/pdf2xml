@@ -28,3 +28,5 @@ Makefile.in
 /missing
 
 pdftoxml
+
+example/junk
