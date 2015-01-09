@@ -13,12 +13,14 @@ XPDF = xpdf-3.02
 
 PNG = libpng-1.2.50
 
+SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk
+
 CC=gcc
 CFLAGS=-Wno-deprecated -Wno-write-strings -I$(XPDF)
 CXX=g++
 CXXFLAGS=$(CFLAGS) -I$(PNG)
 CXXFLAGSGOO=-I$(XPDF)/goo
-CXXFLAGSFOFI=-I$(XPDF)/fofi
+CXXFLAGSFOFI=-I$(XPDF)/fofi -I$(SDKROOT)/usr/include/libxml2
 LIBPROG=ar
 DEL = rm 
 
